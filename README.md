@@ -4,5 +4,4 @@ O Projeto EcoPets é uma iniciativa dedicada à preservação do meio ambiente, 
 
 ## ✒️ Autores
 
-Fabricio Bettarello
-Eric Yuji
+Fabricio Bettarello e Eric Yuji
