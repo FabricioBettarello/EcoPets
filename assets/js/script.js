@@ -23,3 +23,14 @@ function Login() {
 function register() {
     alert('Registro realizado com sucesso!')
 }
+
+const slides = document.querySelector('.slides');
+    const slideWidth = slides.clientWidth;
+    let currentSlide = 0;
+
+    function showNextSlide() {
+      currentSlide = (currentSlide + 1) % 5;
+      slides.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+    }
+
+    setInterval(showNextSlide, 5000);
