@@ -24,7 +24,7 @@
             <a href="#benefits">Benefícios</a>
             <a href="#help">Como ajudamos</a>
         </div>
-        <button><i class="bi bi-box-arrow-in-right"></i> Login</button>
+        <button onclick="redirectLogin()"><i class="bi bi-box-arrow-in-right"></i> Login</button>
     </nav>
 
     <section class="hero">
@@ -44,7 +44,6 @@
         <img src="assets/images/hero.png">
 
     </section>
-
     <section class="about" id="about">
         <p>Sobre nós</p>
         <h2>Quais são os serviços que oferecemos para os oceanos?</h2>
@@ -159,12 +158,12 @@
             <div class="item">
                 <a href="#">Faça login agora mesmo!</a>
                 <p>Faça login agora mesmo para acompanhar o EcoPets.</p>
-                <button>Fazer login</button>
+                <button onclick="redirectLogin()"><i class="bi bi-box-arrow-in-right"></i> Fazer login</button>
             </div>
             <div class="item">
                 <a href="#">Envie um feedback!</a>
                 <p>Clicando no botão abaixo você pode enviar seu feedback.</p>
-                <button>Enviar um feedback</button>
+                <button onclick="Feedback()"><i class="bi bi-stars"></i> Enviar um feedback</button>
             </div>
         </div>
     </section>
@@ -173,6 +172,6 @@
         <p>© 2024 Projeto EcoPets.</p>
     </footer>
 
+    <script src="assets/js/script.js"></script>
 </body>
-
 </html>
