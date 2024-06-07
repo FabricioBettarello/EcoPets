@@ -4,7 +4,7 @@ O Projeto EcoPets é uma iniciativa dedicada à preservação do meio ambiente, 
 
 ## Autores
 
-Fabricio Bettarello e Eric Yuji
+Fabricio Bettarello RM 554638 e Eric Yuji RM 554869
 
 ## Usuário e senha da página de login
 
